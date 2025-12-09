@@ -1,0 +1,32 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# ==========================
+# Terraform
+# ==========================
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# OS-specific files
+# ==========================
+.DS_Store
+Thumbs.db
